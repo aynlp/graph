@@ -1,3 +1,4 @@
+```mermaid
 graph TD
     A[数据读取<br/>HDFS+PySpark] --> B[文本预处理<br/>分词、编码、padding]
     B --> C1[句子1编码器<br/>Embedding→LSTM→Pooling→Dense]
@@ -8,3 +9,4 @@ graph TD
     D2 --> E
     E --> F[输出相似度分数]
     F --> G[交互式输入预测]
+```
